@@ -43,6 +43,8 @@ Accuracy
 Recall (Primary focus)  
 Confusion Matrix  
 Classification Report (Precision, Recall, F1-score)  
+<img width="986" height="223" alt="Screenshot (198)" src="https://github.com/user-attachments/assets/85312349-bf49-487b-b16e-ed66cf48fc76" />
+
 
 The evaluation emphasized **Recall**, as correctly identifying churn customers is critical for business retention strategies.
 
