@@ -21,8 +21,6 @@ Gradient Boosting Classifier
 AdaBoost Classifier  
 Extra Trees Classifier  
 LightGBM Classifier  
-<img width="742" height="573" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/c89e02b6-da0f-4716-8ee3-c419c3b4f54e" />
-
 
 ### Data Preparation
 
@@ -32,9 +30,12 @@ Irrelevant features such as `customerID` were removed
 Dataset was split into training and testing sets (80/20 split with stratification)  
 
 ### Handling Class Imbalance
-
 Applied **SMOTE (Synthetic Minority Oversampling Technique)** on training data  
 Ensured balanced representation of churn and non-churn classes  
+
+<img width="742" height="573" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/c89e02b6-da0f-4716-8ee3-c419c3b4f54e" />
+
+
 
 ### Model Evaluation
 Each model was evaluated using:
