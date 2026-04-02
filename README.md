@@ -1,10 +1,7 @@
 # Telecom Customer Churn Analysis & Prediction
+Customer churn is a critical challenge in the telecom industry impacting revenue and growth. This project develops a machine learning solution to predict churn and provides actionable insights through a Power BI dashboard to improve customer retention.
 
 <img width="1208" height="759" alt="dashboard-overview" src="https://github.com/user-attachments/assets/e96e990a-72af-4540-9508-7e2f86b2d2a7" />
-
-
-
-
 
 ## Objective
 Analyze customer churn and predict at-risk customers using machine learning and visualize insights using Power BI.
@@ -23,6 +20,8 @@ Gradient Boosting Classifier
 AdaBoost Classifier  
 Extra Trees Classifier  
 LightGBM Classifier  
+<img width="742" height="573" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/c89e02b6-da0f-4716-8ee3-c419c3b4f54e" />
+
 
 ### Data Preparation
 
@@ -67,7 +66,9 @@ Identified key drivers of churn:
 3. Tenure  
 4. Total Charges  
 5. Online Security  
-6. Tech Support  
+6. Tech Support
+
+<img width="1039" height="553" alt="important_features" src="https://github.com/user-attachments/assets/f92b91a3-5697-4f90-8037-ff0212ec20e4" />
 
 ### Conclusion
 
