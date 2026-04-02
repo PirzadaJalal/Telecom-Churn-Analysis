@@ -2,6 +2,7 @@
 Customer churn is a critical challenge in the telecom industry impacting revenue and growth. This project develops a machine learning solution to predict churn and provides actionable insights through a Power BI dashboard to improve customer retention.
 
 <img width="1208" height="759" alt="dashboard-overview" src="https://github.com/user-attachments/assets/e96e990a-72af-4540-9508-7e2f86b2d2a7" />
+<img width="1211" height="761" alt="dashboard-churn drivers" src="https://github.com/user-attachments/assets/2ea184ad-deae-406e-a2d4-8b90f9f1b9e2" />
 
 ## Objective
 Analyze customer churn and predict at-risk customers using machine learning and visualize insights using Power BI.
