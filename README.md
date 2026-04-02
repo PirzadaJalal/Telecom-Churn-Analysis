@@ -1,5 +1,11 @@
 # Telecom Customer Churn Analysis & Prediction
 
+<img width="1208" height="759" alt="dashboard-overview" src="https://github.com/user-attachments/assets/e96e990a-72af-4540-9508-7e2f86b2d2a7" />
+
+
+
+
+
 ## Objective
 Analyze customer churn and predict at-risk customers using machine learning and visualize insights using Power BI.
 
