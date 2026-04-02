@@ -1,2 +1,89 @@
-# Telecom-Churn-Analysis
-End-to-end churn prediction and Power BI dashboard project
+# Telecom Customer Churn Analysis & Prediction
+
+## Objective
+Analyze customer churn and predict at-risk customers using machine learning and visualize insights using Power BI.
+
+## Machine Learning Approach
+
+### Model Selection
+Multiple machine learning algorithms were applied to evaluate performance and identify the best model for churn prediction:
+
+Logistic Regression  
+Random Forest Classifier  
+XGBoost Classifier  
+K-Nearest Neighbors (KNN)  
+Support Vector Machine (SVM)  
+Gradient Boosting Classifier  
+AdaBoost Classifier  
+Extra Trees Classifier  
+LightGBM Classifier  
+
+### Data Preparation
+
+Categorical variables were encoded using Label Encoding  
+Target variable (`Churn`) was converted into binary format (0 = No, 1 = Yes)  
+Irrelevant features such as `customerID` were removed  
+Dataset was split into training and testing sets (80/20 split with stratification)  
+
+### Handling Class Imbalance
+
+Applied **SMOTE (Synthetic Minority Oversampling Technique)** on training data  
+Ensured balanced representation of churn and non-churn classes  
+
+### Model Evaluation
+Each model was evaluated using:
+
+Accuracy  
+Recall (Primary focus)  
+Confusion Matrix  
+Classification Report (Precision, Recall, F1-score)  
+
+The evaluation emphasized **Recall**, as correctly identifying churn customers is critical for business retention strategies.
+
+### Model Optimization
+
+Performed **Hyperparameter Tuning** using GridSearchCV  
+Optimized **AdaBoost Classifier** based on recall score  
+Selected the best-performing model based on ability to detect churn cases
+
+### Final Model
+
+Tuned AdaBoost model used as final model  
+Achieved significant improvement in recall (~0.88)  
+Prioritized identifying high-risk customers over minimizing false positives  
+
+### Feature Importance Analysis
+
+Applied Random Forest to extract feature importance  
+Identified key drivers of churn:
+1. Monthly Charges  
+2. Contract Type  
+3. Tenure  
+4. Total Charges  
+5. Online Security  
+6. Tech Support  
+
+### Conclusion
+
+The machine learning pipeline successfully identified high-risk churn customers and key behavioral drivers. The approach demonstrates a balance between predictive performance and business applicability, enabling data-driven retention strategies.
+
+## Key Insights
+ Customers with **high monthly charges** are more likely to churn  
+ **Short tenure customers** show higher churn rate  
+ **Month-to-month contracts** have the highest churn  
+ Lack of **Tech Support & Online Security** increases churn  
+
+## Tools & Technologies
+
+### Programming & Libraries
+Python (Pandas, NumPy)  
+Scikit-learn (Modeling, Evaluation, Preprocessing)  
+XGBoost & LightGBM (Advanced Boosting Models)  
+Imbalanced-learn (SMOTE for class imbalance)  
+
+### Data Visualization
+Matplotlib  
+Seaborn  
+
+### Business Intelligence
+Microsoft Power BI (Dashboard & Data Visualization)
